@@ -118,3 +118,120 @@ footer {
 }
 
 
+
+@media (max-width: 600px){
+    body{
+        background-image: url('/assets/fooder\ mobile\ background-02.png');
+        background-size: cover;
+    }
+    .hamburger{
+        position: absolute;
+        right: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+        /* border: 1px solid red; */
+        cursor: pointer;
+    }
+    
+    .hamburger .bar{
+        width: 100%;
+        height: 3px;
+        background-color: #4B4B4B;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        height: 70px;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .nav-text {
+        z-index: 1;
+        background-color: #EA492E;
+        margin-top: 250px;
+        display: none;
+        flex-direction: column;
+        justify-content: right;
+        font-size: 15px;
+        width: 600px;
+        color: #ffffff;
+        font-family: 'poppins', sans-serif;
+        font-size: 13px;
+    }
+
+    .nav-text.active{
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+        color: white;   
+       }
+    .page-text{
+    
+        color: white;
+    }
+
+    footer {
+        width: 100vw;
+        height: 50px;
+    }
+
+    .input-main {
+        margin-top: 40px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+    }
+    
+    .inputbox {
+        height: 52px;
+        display: flex;
+        /* border: 1px solid rgb(14, 83, 230); */
+        text-align: center;
+    }
+
+    .button {
+        position: relative;
+        right: 1px;
+        background-color: #EA492E;
+        border-radius: 0px 11px 11px 0px;
+        height: 52px;
+        width: 100px;
+    }
+
+    .container {
+        justify-content: center;
+        box-shadow: 0px 0px 10px rgb(238, 238, 238);
+        border: 1px solid rgb(216, 216, 216);
+        border-radius: 13px;
+        height: 450px;
+        width: 90%;
+    background-color: white;}
+    
+    
+    .contact-title {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-family: 'poppins', sans-serif;
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: #EA492E
+    }
+    
+    .contact-details {
+        line-height: 45px;
+        margin-left: 40px;
+        font-family: 'poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        color: #4B4B4B;
+    
+    }
+    
+}
