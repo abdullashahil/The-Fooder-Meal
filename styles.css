@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
 
 body {
-    background-image: url(/assets/background.png);
+    background-image: url(./assets/background.png);
     background-size: 100vw;
     padding: 0;
     margin: 0;
@@ -364,7 +364,7 @@ footer {
 
 @media (max-width: 550px){
     body{
-        background-image: url('/assets/fooder\ mobile\ background-02.png');
+        background-image: url('./assets/fooder\ mobile\ background-02.png');
         background-size: 100%
     }
     .hamburger{
@@ -620,7 +620,7 @@ height: 6vh;
     margin-left: 40px;
     margin-bottom: 30px;
     border-radius: 12px;
-    background-image: url(/assets/image1.png);
+    background-image: url(./assets/image1.png);
     background-size: cover;
 }
 
